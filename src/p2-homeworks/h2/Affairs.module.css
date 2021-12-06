@@ -1,0 +1,38 @@
+.button {
+    margin: 10px;
+    width: 60px;
+    outline: none;
+    background: mediumspringgreen;
+    color: indianred;
+}
+
+.button:focus {
+    outline: mediumslateblue solid 1px;
+}
+
+.button:active {
+    background: floralwhite;
+}
+
+.active {
+    background: white;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    width: 80px;
+}
+
+.high {
+    color: red
+}
+.middle {
+    color: yellow
+}
+.low {
+    color: green
+}
